@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Component Should call handleDropdown function 1`] = `
+<div
+  className="component-example mb-3 col-sm-12 undefined"
+>
+  <div
+    className="dropdown show"
+  >
+    <button
+      aria-expanded="false"
+      aria-haspopup="true"
+      className="btn btn-primary dropdown-toggle"
+      data-toggle="dropdown"
+      disabled={false}
+      id="dropdownMenuButton"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="icon icon-angle-down"
+      />
+    </button>
+    <div
+      aria-labelledby="dropdownMenuButton"
+      className="dropdown-menu show"
+    >
+      <a
+        className="dropdown-item"
+        key="0"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown Component Should call onDropdownSelect function 1`] = `
+<div
+  className="component-example mb-3 col-sm-12 undefined"
+>
+  <div
+    className="dropdown show"
+  >
+    <button
+      aria-expanded="false"
+      aria-haspopup="true"
+      className="btn btn-primary dropdown-toggle"
+      data-toggle="dropdown"
+      disabled={false}
+      id="dropdownMenuButton"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="icon icon-angle-down"
+      />
+    </button>
+    <div
+      aria-labelledby="dropdownMenuButton"
+      className="dropdown-menu show"
+    >
+      <a
+        className="dropdown-item"
+        key="0"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown Component renders Dropdown component with options 1`] = `
+<div
+  className="component-example mb-3 col-sm-12 undefined"
+>
+  <div
+    className="dropdown "
+  >
+    <button
+      aria-expanded="false"
+      aria-haspopup="true"
+      className="btn btn-primary dropdown-toggle"
+      data-toggle="dropdown"
+      disabled={false}
+      id="dropdownMenuButton"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="icon icon-angle-down"
+      />
+    </button>
+    <div
+      aria-labelledby="dropdownMenuButton"
+      className="dropdown-menu "
+    >
+      <a
+        className="dropdown-item"
+        key="0"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown Component renders Dropdown component with placeholder 1`] = `
+<div
+  className="component-example mb-3 col-sm-12 undefined"
+>
+  <div
+    className="dropdown "
+  >
+    <button
+      aria-expanded="false"
+      aria-haspopup="true"
+      className="btn btn-primary dropdown-toggle"
+      data-toggle="dropdown"
+      disabled={false}
+      id="dropdownMenuButton"
+      onClick={[Function]}
+      type="button"
+    >
+      It is a placeholder
+      <span
+        className="icon icon-angle-down"
+      />
+    </button>
+    <div
+      aria-labelledby="dropdownMenuButton"
+      className="dropdown-menu "
+    >
+      <a
+        className="dropdown-item"
+        key="0"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown Component renders correctly 1`] = `
+<div
+  className="component-example mb-3 col-sm-12 undefined"
+>
+  <div
+    className="dropdown "
+  >
+    <button
+      aria-expanded="false"
+      aria-haspopup="true"
+      className="btn btn-primary dropdown-toggle"
+      data-toggle="dropdown"
+      disabled={false}
+      id="dropdownMenuButton"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="icon icon-angle-down"
+      />
+    </button>
+    <div
+      aria-labelledby="dropdownMenuButton"
+      className="dropdown-menu "
+    >
+      <a
+        className="dropdown-item"
+        key="0"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown Component renders default value in Dropdown 1`] = `
+<div
+  className="component-example mb-3 col-sm-12 undefined"
+>
+  <div
+    className="dropdown "
+  >
+    <button
+      aria-expanded="false"
+      aria-haspopup="true"
+      className="btn btn-primary dropdown-toggle"
+      data-toggle="dropdown"
+      disabled={false}
+      id="dropdownMenuButton"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="icon icon-angle-down"
+      />
+    </button>
+    <div
+      aria-labelledby="dropdownMenuButton"
+      className="dropdown-menu "
+    >
+      <a
+        className="dropdown-item"
+        key="0"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown Component renders disabled Dropdown 1`] = `
+<div
+  className="component-example mb-3 col-sm-12 undefined"
+>
+  <div
+    className="dropdown "
+  >
+    <button
+      aria-expanded="false"
+      aria-haspopup="true"
+      className="btn btn-primary dropdown-toggle"
+      data-toggle="dropdown"
+      disabled={true}
+      id="dropdownMenuButton"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="icon icon-angle-down"
+      />
+    </button>
+    <div
+      aria-labelledby="dropdownMenuButton"
+      className="dropdown-menu "
+    >
+      <a
+        className="dropdown-item"
+        key="0"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

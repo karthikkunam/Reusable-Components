@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleSwitch Component renders 2 buttons toggle correctly 1`] = `
+<div
+  className="switch round pill pill-sm mb-4 "
+>
+  <input
+    checked={true}
+    className="toggle_option"
+    id="first_toggle"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="first_toggle"
+    key="0"
+  >
+    <p>
+      Cost ($)
+    </p>
+  </label>
+  <input
+    checked={false}
+    className="toggle_option"
+    id="second_toggle"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="second_toggle"
+    key="1"
+  >
+    <p>
+      Retail ($)
+    </p>
+  </label>
+  <div
+    className="switch_slider"
+  />
+</div>
+`;
+
+exports[`ToggleSwitch Component renders 3 buttons toggle correctly 1`] = `
+<div
+  className="switch round pill pill-md mb-4 "
+>
+  <input
+    checked={true}
+    className="toggle_option"
+    id="first_toggle_md"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="first_toggle_md"
+    key="0"
+  >
+    <p>
+      Cost ($)
+    </p>
+  </label>
+  <input
+    checked={false}
+    className="toggle_option"
+    id="second_toggle_md"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="second_toggle_md"
+    key="1"
+  >
+    <p>
+      Retail ($)
+    </p>
+  </label>
+  <input
+    checked={false}
+    className="toggle_option"
+    id="third_toggle_md"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="third_toggle_md"
+    key="2"
+  >
+    <p>
+      Retail (%)
+    </p>
+  </label>
+  <div
+    className="switch_slider"
+  />
+</div>
+`;
+
+exports[`ToggleSwitch Component renders secondaryView as defaultView for 2 buttons 1`] = `
+<div
+  className="switch round pill pill-md mb-4 "
+>
+  <input
+    checked={false}
+    className="toggle_option"
+    id="first_toggle_md"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="first_toggle_md"
+    key="0"
+  >
+    <p>
+      Cost ($)
+    </p>
+  </label>
+  <input
+    checked={false}
+    className="toggle_option"
+    id="second_toggle_md"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="second_toggle_md"
+    key="1"
+  >
+    <p>
+      Retail ($)
+    </p>
+  </label>
+  <input
+    checked={false}
+    className="toggle_option"
+    id="third_toggle_md"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="third_toggle_md"
+    key="2"
+  >
+    <p>
+      Retail (%)
+    </p>
+  </label>
+  <div
+    className="switch_slider"
+  />
+</div>
+`;
+
+exports[`ToggleSwitch Component renders secondaryView as defaultView for 3 buttons 1`] = `
+<div
+  className="switch round pill pill-md mb-4 "
+>
+  <input
+    checked={false}
+    className="toggle_option"
+    id="first_toggle_md"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="first_toggle_md"
+    key="0"
+  >
+    <p>
+      Cost ($)
+    </p>
+  </label>
+  <input
+    checked={true}
+    className="toggle_option"
+    id="second_toggle_md"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="second_toggle_md"
+    key="1"
+  >
+    <p>
+      Retail ($)
+    </p>
+  </label>
+  <input
+    checked={false}
+    className="toggle_option"
+    id="third_toggle_md"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="third_toggle_md"
+    key="2"
+  >
+    <p>
+      Retail (%)
+    </p>
+  </label>
+  <div
+    className="switch_slider"
+  />
+</div>
+`;
+
+exports[`ToggleSwitch Component should toggle buttons onClick of  1`] = `
+<div
+  className="switch round pill pill-md mb-4 "
+>
+  <input
+    checked={true}
+    className="toggle_option"
+    id="first_toggle_md"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="first_toggle_md"
+    key="0"
+  >
+    <p>
+      Cost ($)
+    </p>
+  </label>
+  <input
+    checked={false}
+    className="toggle_option"
+    id="second_toggle_md"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="second_toggle_md"
+    key="1"
+  >
+    <p>
+      Retail ($)
+    </p>
+  </label>
+  <input
+    checked={false}
+    className="toggle_option"
+    id="third_toggle_md"
+    name="toggle_option"
+    onClick={[Function]}
+    type="radio"
+  />
+  <label
+    htmlFor="third_toggle_md"
+    key="2"
+  >
+    <p>
+      Retail (%)
+    </p>
+  </label>
+  <div
+    className="switch_slider"
+  />
+</div>
+`;

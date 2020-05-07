@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlertIcon Component renders correctly 1`] = `
+<a
+  className="nav-item-icon alert-icon-container slide-out"
+  href="#"
+  id="sidebarCollapse"
+>
+  <span
+    className="alert-icon"
+  >
+    <span
+      className="alert-icon-circle"
+    >
+      <span
+        className="alert-icon-count"
+      >
+        3
+      </span>
+    </span>
+  </span>
+  <span
+    className="icon icon-bell"
+  />
+</a>
+`;

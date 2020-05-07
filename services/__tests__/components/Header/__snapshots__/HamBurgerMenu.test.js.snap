@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HamBurgerMenu Component renders correctly 1`] = `
+<div
+  className="body"
+>
+  <ul
+    className="list"
+  >
+    <li
+      className="list-item"
+      key="home"
+    >
+      <a
+        className="list-item-link menu-open "
+        onClick={[Function]}
+      >
+        <label>
+          home
+        </label>
+      </a>
+    </li>
+  </ul>
+  <div
+    className="footer"
+  >
+    <ul
+      className="list logout"
+    >
+      <li
+        className="list-item"
+      >
+        <a
+          className="list-item-link"
+        >
+          <label>
+            logout
+          </label>
+        </a>
+      </li>
+    </ul>
+    <div
+      className="version-text"
+    >
+      <span>
+        Version Information
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`HamBurgerMenu Component renders onLeftMenuClick onClick 1`] = `
+<div
+  className="body"
+>
+  <ul
+    className="list"
+  >
+    <li
+      className="list-item"
+      key="home"
+    >
+      <a
+        className="list-item-link menu-open "
+        onClick={[Function]}
+      >
+        <label>
+          home
+        </label>
+      </a>
+    </li>
+  </ul>
+  <div
+    className="footer"
+  >
+    <ul
+      className="list logout"
+    >
+      <li
+        className="list-item"
+      >
+        <a
+          className="list-item-link"
+        >
+          <label>
+            logout
+          </label>
+        </a>
+      </li>
+    </ul>
+    <div
+      className="version-text"
+    >
+      <span>
+        Version Information
+      </span>
+    </div>
+  </div>
+</div>
+`;

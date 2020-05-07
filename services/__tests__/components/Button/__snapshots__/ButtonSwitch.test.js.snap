@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonSwitch Component renders correctly 1`] = `
+<div
+  className="component-example mb-3 "
+>
+  <div
+    className="btn-group btn-group-toggle btn-group-sm"
+    data-toggle="buttons"
+  >
+    <label
+      className="btn btn-secondary active"
+      key="0"
+    >
+      <input
+        autoComplete="off"
+        checked={true}
+        id="1"
+        name="options"
+        onClick={[Function]}
+        type="radio"
+      />
+      Cost ($)
+    </label>
+    <label
+      className="btn btn-secondary "
+      key="1"
+    >
+      <input
+        autoComplete="off"
+        checked={false}
+        id="2"
+        name="options"
+        onClick={[Function]}
+        type="radio"
+      />
+      Retail ($)
+    </label>
+  </div>
+</div>
+`;
+
+exports[`ButtonSwitch Component renders secondaryView as defaultView 1`] = `
+<div
+  className="component-example mb-3 "
+>
+  <div
+    className="btn-group btn-group-toggle btn-group-sm"
+    data-toggle="buttons"
+  >
+    <label
+      className="btn btn-secondary "
+      key="0"
+    >
+      <input
+        autoComplete="off"
+        checked={false}
+        id="1"
+        name="options"
+        onClick={[Function]}
+        type="radio"
+      />
+      Cost ($)
+    </label>
+    <label
+      className="btn btn-secondary active"
+      key="1"
+    >
+      <input
+        autoComplete="off"
+        checked={true}
+        id="2"
+        name="options"
+        onClick={[Function]}
+        type="radio"
+      />
+      Retail ($)
+    </label>
+  </div>
+</div>
+`;
+
+exports[`ButtonSwitch Component renders size prop 1`] = `
+<div
+  className="component-example mb-3 "
+>
+  <div
+    className="btn-group btn-group-toggle btn-group-lg"
+    data-toggle="buttons"
+  >
+    <label
+      className="btn btn-secondary active"
+      key="0"
+    >
+      <input
+        autoComplete="off"
+        checked={true}
+        id="1"
+        name="options"
+        onClick={[Function]}
+        type="radio"
+      />
+      Cost ($)
+    </label>
+    <label
+      className="btn btn-secondary "
+      key="1"
+    >
+      <input
+        autoComplete="off"
+        checked={false}
+        id="2"
+        name="options"
+        onClick={[Function]}
+        type="radio"
+      />
+      Retail ($)
+    </label>
+  </div>
+</div>
+`;
+
+exports[`ButtonSwitch Component should swich buttons 1`] = `
+<div
+  className="component-example mb-3 "
+>
+  <div
+    className="btn-group btn-group-toggle btn-group-sm"
+    data-toggle="buttons"
+  >
+    <label
+      className="btn btn-secondary active"
+      key="0"
+    >
+      <input
+        autoComplete="off"
+        checked={true}
+        id="1"
+        name="options"
+        onClick={[Function]}
+        type="radio"
+      />
+      Cost ($)
+    </label>
+    <label
+      className="btn btn-secondary "
+      key="1"
+    >
+      <input
+        autoComplete="off"
+        checked={false}
+        id="2"
+        name="options"
+        onClick={[Function]}
+        type="radio"
+      />
+      Retail ($)
+    </label>
+  </div>
+</div>
+`;

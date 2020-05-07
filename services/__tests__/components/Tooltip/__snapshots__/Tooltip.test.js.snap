@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToastContainer Component renders correctly 1`] = `
+<div
+  className=""
+>
+  <OverlayTrigger
+    defaultShow={false}
+    key="top"
+    overlay={
+      <Tooltip
+        className="custom-tooltip bs-popover-top"
+        id="tooltip-top"
+        placement="right"
+      />
+    }
+    placement="top"
+    trigger="hover"
+  >
+    <button
+      className="btn btn-sm btn-tooltip bs-tooltip"
+      id="open-popover-link"
+    >
+      <span />
+      <span
+        className="icon icon-info"
+      />
+    </button>
+  </OverlayTrigger>
+</div>
+`;

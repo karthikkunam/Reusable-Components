@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmployeeName Component renders employeeName correctly 1`] = `
+<span
+  className="navbar-nav header-info-container ml-auto"
+>
+  <span
+    className="navbar-text header-name-text"
+  >
+    Hi 
+    7BOSS
+  </span>
+</span>
+`;
+
+exports[`EmployeeName Component when employeeName is undefined  1`] = `
+<span
+  className="navbar-nav header-info-container ml-auto"
+/>
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreadCrumb Component Should call routeChange function 1`] = `
+<nav
+  aria-label="breadcrumb"
+>
+  <ol
+    className="breadcrumb"
+  >
+    <li
+      className="breadcrumb-item"
+      key="Home"
+    >
+      <a
+        aria-current="page"
+        key="Home"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="active breadcrumb-item "
+      key="Products"
+    >
+      Products
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`BreadCrumb Component renders correctly 1`] = `
+<nav
+  aria-label="breadcrumb"
+>
+  <ol
+    className="breadcrumb"
+  >
+    <li
+      className="breadcrumb-item"
+      key="Home"
+    >
+      <a
+        aria-current="page"
+        key="Home"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="active breadcrumb-item "
+      key="Products"
+    >
+      Products
+    </li>
+  </ol>
+</nav>
+`;

@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Component Should hide modal on button click 1`] = `
+<Bootstrap(Modal)
+  animation={true}
+  autoFocus={false}
+  enforceFocus={false}
+  keyboard={false}
+  onHide={[Function]}
+  restoreFocus={false}
+  show={true}
+>
+  <div
+    className="modal-content "
+  >
+    <div
+      className=""
+    >
+      <h5
+        className="modal-header"
+      >
+        <span
+          className="modal-title"
+        />
+        <button
+          aria-label="Close"
+          className="close"
+          data-dismiss="modal"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          >
+            ×
+          </span>
+        </button>
+      </h5>
+      <div
+        className="modal-body"
+      />
+      <div
+        className="modal-footer"
+      >
+        <div
+          className="modal-footer-inner btn-right"
+        >
+          <button
+            className="btn btn-secondary"
+            data-dismiss="modal"
+            onClick={[Function]}
+            onEnter={[Function]}
+            type="button"
+          >
+            Close
+          </button>
+          <button
+            className="btn btn-success"
+            type="button"
+          >
+            Save Changes
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</Bootstrap(Modal)>
+`;
+
+exports[`Modal Component Should render Primary and Secondary buttons 1`] = `
+<Bootstrap(Modal)
+  animation={true}
+  autoFocus={false}
+  enforceFocus={false}
+  keyboard={false}
+  onHide={[Function]}
+  restoreFocus={false}
+  show={true}
+>
+  <div
+    className="modal-content "
+  >
+    <div
+      className=""
+    >
+      <h5
+        className="modal-header"
+      >
+        <span
+          className="modal-title"
+        />
+        <button
+          aria-label="Close"
+          className="close"
+          data-dismiss="modal"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          >
+            ×
+          </span>
+        </button>
+      </h5>
+      <div
+        className="modal-body"
+      />
+      <div
+        className="modal-footer"
+      >
+        <div
+          className="modal-footer-inner btn-right"
+        >
+          <button
+            className="btn btn-secondary"
+            data-dismiss="modal"
+            onClick={[Function]}
+            onEnter={[Function]}
+            type="button"
+          >
+            Close
+          </button>
+          <button
+            className="btn btn-success"
+            type="button"
+          >
+            Save Changes
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</Bootstrap(Modal)>
+`;
+
+exports[`Modal Component Should render alert correctly 1`] = `
+<Bootstrap(Modal)
+  animation={true}
+  autoFocus={false}
+  enforceFocus={false}
+  keyboard={false}
+  onHide={[Function]}
+  restoreFocus={false}
+  show={true}
+>
+  <div
+    className="modal-content "
+  >
+    <div
+      className="alert alert-dismissible undefined"
+    >
+      <h5
+        className="alert-heading"
+      >
+        <span
+          className="alert-heading-text"
+        />
+        <span
+          className="icon icon-status-info-reversed"
+        />
+      </h5>
+      <div
+        className="alert-body"
+      />
+      <button
+        className="btn btn-primary btn-lg btn-block"
+        type="button"
+      >
+        Close
+      </button>
+    </div>
+  </div>
+</Bootstrap(Modal)>
+`;
+
+exports[`Modal Component Should render modal with scrollable 1`] = `
+<Bootstrap(Modal)
+  animation={true}
+  autoFocus={false}
+  enforceFocus={false}
+  keyboard={false}
+  onHide={[Function]}
+  restoreFocus={false}
+  scrollable={true}
+  show={true}
+>
+  <div
+    className="modal-content "
+  >
+    <div
+      className=""
+    >
+      <h5
+        className="modal-header"
+      >
+        <span
+          className="modal-title"
+        />
+        <button
+          aria-label="Close"
+          className="close"
+          data-dismiss="modal"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          >
+            ×
+          </span>
+        </button>
+      </h5>
+      <div
+        className="modal-body"
+      />
+      <div
+        className="modal-footer"
+      >
+        <div
+          className="modal-footer-inner btn-right"
+        >
+          <button
+            className="btn btn-secondary"
+            data-dismiss="modal"
+            onClick={[Function]}
+            onEnter={[Function]}
+            type="button"
+          >
+            Close
+          </button>
+          <button
+            className="btn btn-success"
+            type="button"
+          >
+            Save Changes
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</Bootstrap(Modal)>
+`;
+
+exports[`Modal Component Should render modal with size 1`] = `
+<Bootstrap(Modal)
+  animation={true}
+  autoFocus={false}
+  enforceFocus={false}
+  keyboard={false}
+  onHide={[Function]}
+  restoreFocus={false}
+  scrollable={true}
+  show={true}
+  size="xl"
+>
+  <div
+    className="modal-content "
+  >
+    <div
+      className=""
+    >
+      <h5
+        className="modal-header"
+      >
+        <span
+          className="modal-title"
+        />
+        <button
+          aria-label="Close"
+          className="close"
+          data-dismiss="modal"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          >
+            ×
+          </span>
+        </button>
+      </h5>
+      <div
+        className="modal-body"
+      />
+      <div
+        className="modal-footer"
+      >
+        <div
+          className="modal-footer-inner btn-right"
+        >
+          <button
+            className="btn btn-secondary"
+            data-dismiss="modal"
+            onClick={[Function]}
+            onEnter={[Function]}
+            type="button"
+          >
+            Close
+          </button>
+          <button
+            className="btn btn-success"
+            type="button"
+          >
+            Save Changes
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</Bootstrap(Modal)>
+`;
+
+exports[`Modal Component renders correctly with hideModal 1`] = `
+<Bootstrap(Modal)
+  animation={true}
+  autoFocus={false}
+  enforceFocus={false}
+  keyboard={false}
+  onHide={[Function]}
+  restoreFocus={false}
+  show={false}
+>
+  <div
+    className="modal-content "
+  >
+    <div
+      className=""
+    >
+      <h5
+        className="modal-header"
+      >
+        <span
+          className="modal-title"
+        />
+        <button
+          aria-label="Close"
+          className="close"
+          data-dismiss="modal"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          >
+            ×
+          </span>
+        </button>
+      </h5>
+      <div
+        className="modal-body"
+      />
+      <div
+        className="modal-footer"
+      >
+        <div
+          className="modal-footer-inner btn-right"
+        >
+          <button
+            className="btn btn-secondary"
+            data-dismiss="modal"
+            onClick={[Function]}
+            onEnter={[Function]}
+            type="button"
+          >
+            Close
+          </button>
+          <button
+            className="btn btn-success"
+            type="button"
+          >
+            Save Changes
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</Bootstrap(Modal)>
+`;
+
+exports[`Modal Component renders correctly with showModal 1`] = `
+<Bootstrap(Modal)
+  animation={true}
+  autoFocus={false}
+  enforceFocus={false}
+  keyboard={false}
+  onHide={[Function]}
+  restoreFocus={false}
+  show={true}
+>
+  <div
+    className="modal-content "
+  >
+    <div
+      className=""
+    >
+      <h5
+        className="modal-header"
+      >
+        <span
+          className="modal-title"
+        />
+        <button
+          aria-label="Close"
+          className="close"
+          data-dismiss="modal"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          >
+            ×
+          </span>
+        </button>
+      </h5>
+      <div
+        className="modal-body"
+      />
+      <div
+        className="modal-footer"
+      >
+        <div
+          className="modal-footer-inner btn-right"
+        >
+          <button
+            className="btn btn-secondary"
+            data-dismiss="modal"
+            onClick={[Function]}
+            onEnter={[Function]}
+            type="button"
+          >
+            Close
+          </button>
+          <button
+            className="btn btn-success"
+            type="button"
+          >
+            Save Changes
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</Bootstrap(Modal)>
+`;

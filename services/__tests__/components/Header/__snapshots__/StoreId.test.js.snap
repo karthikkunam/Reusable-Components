@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoreId Component renders correctly 1`] = `
+<div>
+  <span
+    className="navbar-text header-text"
+  >
+    Store: 
+    35678
+  </span>
+</div>
+`;
+
+exports[`StoreId Component test without storeID 1`] = `<div />`;

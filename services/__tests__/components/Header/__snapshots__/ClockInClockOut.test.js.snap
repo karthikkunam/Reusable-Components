@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClockInClockOut Component renders correctly 1`] = `
+<form
+  className="form-inline logged-out"
+>
+  <button
+    className="btn btn-sm btn-outline-primary clockin"
+    disabled={true}
+    type="submit"
+  >
+    CLOCK IN / OUT
+  </button>
+</form>
+`;

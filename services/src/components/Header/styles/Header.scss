@@ -1,0 +1,14 @@
+.page {
+    &-header {
+        margin-top: 15px;
+        &-title {
+            display: inline-block;
+        }
+        &-subtitle {
+            margin: 0;
+            padding: 28px 0 25px;
+            font-size: 14px;
+            float: right;
+        }
+    }
+}

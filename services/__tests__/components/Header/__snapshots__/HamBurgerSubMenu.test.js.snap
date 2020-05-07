@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HamBurgerSubMenu Component renders correctly 1`] = `
+<div
+  className="body"
+>
+  <div
+    key="Header 1"
+  >
+    <div
+      className="header"
+    >
+      Header 1
+    </div>
+    <ul
+      className="list"
+    >
+      <li
+        className="list-item"
+        key="page 1 Title"
+      >
+        <a
+          className="list-item-link menu-open "
+          href="page1"
+          onClick={[Function]}
+        >
+          <label>
+            page 1 Title
+          </label>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    key="Header 2"
+  >
+    <div
+      className="header"
+    >
+      Header 2
+    </div>
+    <ul
+      className="list"
+    >
+      <li
+        className="list-item"
+        key="page 4 Title"
+      >
+        <a
+          className="list-item-link menu-open "
+          href="page4"
+          onClick={[Function]}
+        >
+          <label>
+            page 4 Title
+          </label>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`HamBurgerSubMenu Component renders navigateURL onClick 1`] = `
+<div
+  className="body"
+>
+  <div
+    key="Header 1"
+  >
+    <div
+      className="header"
+    >
+      Header 1
+    </div>
+    <ul
+      className="list"
+    >
+      <li
+        className="list-item"
+        key="page 1 Title"
+      >
+        <a
+          className="list-item-link menu-open "
+          href="page1"
+          onClick={[Function]}
+        >
+          <label>
+            page 1 Title
+          </label>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    key="Header 2"
+  >
+    <div
+      className="header"
+    >
+      Header 2
+    </div>
+    <ul
+      className="list"
+    >
+      <li
+        className="list-item"
+        key="page 4 Title"
+      >
+        <a
+          className="list-item-link menu-open "
+          href="page4"
+          onClick={[Function]}
+        >
+          <label>
+            page 4 Title
+          </label>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

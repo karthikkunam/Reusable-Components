@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo Component renders correctly 1`] = `
+<div
+  className="navbar-brand header-logo-container"
+>
+  <span
+    alt="Seven eleven logo"
+    id="header-logo"
+  />
+</div>
+`;

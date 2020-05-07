@@ -1,0 +1,172 @@
+// NOTE: the below monthCell styles are for storybook
+.monthCell {
+  color: #f78020;
+  cursor: pointer;
+}
+
+@import '../../../node_modules/@7eleven/7boss-style/dist/sass/variables.scss';
+
+.ant-picker {
+  padding: 0 0 5px 0;
+  border: 0;
+  border-bottom: 1px solid #367bb5;
+  border-radius: 0;
+  box-shadow: none;
+  &:hover {
+    border-bottom: 1px solid #367bb5;
+  }
+  &-container {
+    display: inline-block;
+  }
+  &-input {
+    padding-left: 30px;
+  }
+  &-label {
+    margin: 0 0 0 30px;
+    display: block;
+    font-size: 12px;
+    font-family: Roboto-Bold;
+    color: #5b616b;
+    &.date {
+      &-start {
+        width: 20%;
+        display: inline-block;
+      }
+      &-end {
+        display: inline-block;
+      }
+    }
+  }
+  &-suffix {
+    top: 0;
+    left: 0px;
+    margin: 0;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    font-size: 20px;
+    line-height: 1;
+    color: $green;
+    background: $white;
+    position: absolute;
+    span {
+      &:after {
+        content: '\e90d';
+        font-family: 'icomoon';
+      }
+      svg {
+        display: none;
+      }
+    }
+  }
+  &-clear {
+    padding: 5px 3px;
+    left: 0;
+    right: auto;
+    top: 10px;
+    line-height: 0;
+    position: absolute;
+    display: inline-block;
+  }
+  &-header {
+    padding: 0 2px;
+  }
+  &-prev-icon,
+  &-next-icon,
+  &-super-prev-icon,
+  &-super-next-icon {
+    color: #5b616b;
+    &:before,
+    &:after {
+      width: 8px;
+      height: 8px;
+    }
+  }
+  &-date-panel .ant-picker-content th {
+    font-size: 12px;
+    color: #9a9a9b;
+    font-family: Roboto-Bold;
+  }
+  &-date-panel .ant-picker-body {
+    padding: 8px 2px;
+  }
+  &-cell-in-view {
+    color: #2c2f35;
+  }
+  &-decade-panel,
+  &-year-panel,
+  &-month-panel,
+  &-week-panel,
+  &-date-panel,
+  &-time-panel {
+    width: auto;
+    max-width: 255px;
+  }
+  &-cell .ant-picker-cell-inner {
+    min-width: 28px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+  }
+  &-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner,
+  &-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner,
+  &-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+    border-radius: 15px;
+    background: $green;
+  }
+  &-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner:before {
+    border: 0;
+  }
+  &-cell-today {
+    .ant-picker-cell-inner {
+      border: 1px solid #107f62;
+      border-radius: 15px;
+    }
+  }
+  &-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single):not(.ant-picker-cell-range-end) {
+    .ant-picker-cell-inner {
+      border-radius: 15px;
+    }
+  }
+  &-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single):not(.ant-picker-cell-range-start) {
+    .ant-picker-cell-inner {
+      border-radius: 15px;
+    }
+  }
+  &-cell-in-view.ant-picker-cell-in-range::before {
+    height: 28px;
+    background: #fff;
+    border-top: 1px solid #107f62;
+    border-bottom: 1px solid #107f62;
+  }
+  &-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single):before,
+  &-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single):before {
+    height: 28px;
+    background: #fff;
+    border-top: 1px solid #107f62;
+    border-bottom: 1px solid #107f62;
+  }
+  &-range.ant-picker-focused {
+    .ant-picker-active-bar {
+      opacity: 0;
+    }
+  }
+  .ant-picker-range-separator {
+    display: none;
+    + .ant-picker-input {
+      padding-left: 20px;
+    }
+  }
+  &-range {
+    .ant-picker-clear {
+      right: auto;
+    }
+  }
+  &-cell-disabled::before {
+    background: transparent;
+  }
+  &-decade-panel .ant-picker-cell-disabled .ant-picker-cell-inner,
+  &-year-panel .ant-picker-cell-disabled .ant-picker-cell-inner,
+  &-month-panel .ant-picker-cell-disabled .ant-picker-cell-inner {
+    border-radius: 15px;
+  }
+}

@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExceptionMessage Component renders correctly 1`] = `
+<div
+  className="alert exception-message"
+>
+  <div>
+     
+    <span
+      className="icon icon-status-info-reversed"
+    />
+     
+  </div>
+  <div
+    className="header"
+  >
+     
+     
+  </div>
+  <div
+    className="body"
+  >
+     
+    <div
+      key="No data to display."
+    >
+       
+      No data to display.
+       
+    </div>
+     
+  </div>
+</div>
+`;
+
+exports[`ExceptionMessage Component renders default props correctly 1`] = `
+<div
+  className="alert exception-message"
+>
+  <div>
+     
+    <span
+      className="icon icon-status-info-reversed"
+    />
+     
+  </div>
+  <div
+    className="header"
+  >
+     
+     
+  </div>
+  <div
+    className="body"
+  >
+     
+    <div
+      key=""
+    >
+       
+       
+    </div>
+     
+  </div>
+</div>
+`;
+
+exports[`ExceptionMessage Component renders error message correctly 1`] = `
+<div
+  className="alert exception-message"
+>
+  <div>
+     
+    <span
+      className="icon icon-status-error-reversed active"
+    />
+     
+  </div>
+  <div
+    className="header"
+  >
+     
+     
+  </div>
+  <div
+    className="body"
+  >
+     
+    <div
+      key=""
+    >
+       
+       
+    </div>
+     
+  </div>
+</div>
+`;
+
+exports[`ExceptionMessage Component renders success message correctly 1`] = `
+<div
+  className="alert exception-message"
+>
+  <div>
+     
+    <span
+      className="icon icon-status-checkmark-reversed active"
+    />
+     
+  </div>
+  <div
+    className="header"
+  >
+     
+     
+  </div>
+  <div
+    className="body"
+  >
+     
+    <div
+      key=""
+    >
+       
+       
+    </div>
+     
+  </div>
+</div>
+`;

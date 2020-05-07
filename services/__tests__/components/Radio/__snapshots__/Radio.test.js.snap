@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown Component renders Radio button with checked and disable 1`] = `
+<fieldset
+  className="form-group radio mt-1 "
+>
+  <label
+    className="radio-label "
+    key="0"
+    onClick={[Function]}
+  >
+    <span
+      className="radio-text"
+    >
+      One
+    </span>
+    <input
+      checked="checked"
+      name="radio"
+      type="radio"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+  <label
+    className="radio-label "
+    key="1"
+    onClick={[Function]}
+  >
+    <span
+      className="radio-text"
+    >
+      Two
+    </span>
+    <input
+      checked=""
+      name="radio"
+      type="radio"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+  <label
+    className="radio-label disabled"
+    key="2"
+    onClick={[Function]}
+  >
+    <span
+      className="radio-text"
+    >
+      Three
+    </span>
+    <input
+      checked=""
+      name="radio"
+      type="radio"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+</fieldset>
+`;
+
+exports[`Dropdown Component renders Radio button with default value correctly 1`] = `
+<fieldset
+  className="form-group radio mt-1 "
+>
+  <label
+    className="radio-label "
+    key="0"
+    onClick={[Function]}
+  >
+    <span
+      className="radio-text"
+    >
+      One
+    </span>
+    <input
+      checked="checked"
+      name="radio"
+      type="radio"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+  <label
+    className="radio-label "
+    key="1"
+    onClick={[Function]}
+  >
+    <span
+      className="radio-text"
+    >
+      Two
+    </span>
+    <input
+      checked=""
+      name="radio"
+      type="radio"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+  <label
+    className="radio-label disabled"
+    key="2"
+    onClick={[Function]}
+  >
+    <span
+      className="radio-text"
+    >
+      Three
+    </span>
+    <input
+      checked=""
+      name="radio"
+      type="radio"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+</fieldset>
+`;
+
+exports[`Dropdown Component renders correctly 1`] = `
+<fieldset
+  className="form-group radio mt-1 "
+>
+  <label
+    className="radio-label "
+    key="0"
+    onClick={[Function]}
+  >
+    <span
+      className="radio-text"
+    />
+    <input
+      checked="checked"
+      name="radio"
+      type="radio"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+</fieldset>
+`;
+
+exports[`Dropdown Component renders handleRadioClick correctly 1`] = `
+<fieldset
+  className="form-group radio mt-1 "
+>
+  <label
+    className="radio-label "
+    key="0"
+    onClick={[Function]}
+  >
+    <span
+      className="radio-text"
+    >
+      One
+    </span>
+    <input
+      checked="checked"
+      name="radio"
+      type="radio"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+  <label
+    className="radio-label "
+    key="1"
+    onClick={[Function]}
+  >
+    <span
+      className="radio-text"
+    >
+      Two
+    </span>
+    <input
+      checked=""
+      name="radio"
+      type="radio"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+  <label
+    className="radio-label disabled"
+    key="2"
+    onClick={[Function]}
+  >
+    <span
+      className="radio-text"
+    >
+      Three
+    </span>
+    <input
+      checked=""
+      name="radio"
+      type="radio"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+</fieldset>
+`;

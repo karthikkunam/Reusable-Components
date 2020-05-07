@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox Component renders Checkbox with checked and disable 1`] = `
+<fieldset
+  className="checkbox mt-1 "
+>
+  <label
+    className="checkbox-label disabled"
+    id="dropdown1"
+    onChange={[Function]}
+  >
+    <span
+      className="checkbox-text"
+    >
+      One
+    </span>
+    <input
+      checked="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+</fieldset>
+`;
+
+exports[`Checkbox Component renders Checkbox with default checked 1`] = `
+<fieldset
+  className="checkbox mt-1 "
+>
+  <label
+    className="checkbox-label "
+    id="dropdown1"
+    onChange={[Function]}
+  >
+    <span
+      className="checkbox-text"
+    >
+      One
+    </span>
+    <input
+      checked="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+</fieldset>
+`;
+
+exports[`Checkbox Component renders correctly 1`] = `
+<fieldset
+  className="checkbox mt-1 "
+>
+  <label
+    className="checkbox-label "
+    id=""
+    onChange={[Function]}
+  >
+    <span
+      className="checkbox-text"
+    />
+    <input
+      checked=""
+      type="checkbox"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+</fieldset>
+`;
+
+exports[`Checkbox Component renders handleCheckboxClick correctly 1`] = `
+<fieldset
+  className="checkbox mt-1 "
+>
+  <label
+    className="checkbox-label "
+    id="dropdown1"
+    onChange={[Function]}
+  >
+    <span
+      className="checkbox-text"
+    >
+      One
+    </span>
+    <input
+      checked="checked"
+      type="checkbox"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+</fieldset>
+`;
+
+exports[`Checkbox Component should return null when disabled is true onclick of handleCheckboxClick 1`] = `
+<fieldset
+  className="checkbox mt-1 "
+>
+  <label
+    className="checkbox-label disabled"
+    id="dropdown1"
+    onChange={[Function]}
+  >
+    <span
+      className="checkbox-text"
+    >
+      One
+    </span>
+    <input
+      checked=""
+      type="checkbox"
+    />
+    <span
+      className="checkmark"
+    />
+  </label>
+</fieldset>
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs Component renders correctly 1`] = `
+<Tabs
+  activeKey="DeliveryStatus"
+  id="controlled-tab-example"
+  mountOnEnter={false}
+  onSelect={[Function]}
+  unmountOnExit={false}
+  variant="tabs"
+>
+  <Tab
+    eventKey="DeliveryStatus"
+    key="DeliveryStatus"
+    title="Delivery Status"
+  />
+  <Tab
+    eventKey="InvoiceSummary"
+    key="InvoiceSummary"
+    title="Invoice Summary"
+  />
+  <Tab
+    eventKey="FinalExceptionReports"
+    key="FinalExceptionReports"
+    title="Final Exception Reports"
+  />
+</Tabs>
+`;
+
+exports[`Tabs Component renders setKey when onSelect is triggered 1`] = `
+<Tabs
+  activeKey={
+    Object {
+      "setKey": [Function],
+    }
+  }
+  id="controlled-tab-example"
+  mountOnEnter={false}
+  onSelect={[Function]}
+  unmountOnExit={false}
+  variant="tabs"
+>
+  <Tab
+    eventKey="DeliveryStatus"
+    key="DeliveryStatus"
+    title="Delivery Status"
+  />
+  <Tab
+    eventKey="InvoiceSummary"
+    key="InvoiceSummary"
+    title="Invoice Summary"
+  />
+  <Tab
+    eventKey="FinalExceptionReports"
+    key="FinalExceptionReports"
+    title="Final Exception Reports"
+  />
+</Tabs>
+`;

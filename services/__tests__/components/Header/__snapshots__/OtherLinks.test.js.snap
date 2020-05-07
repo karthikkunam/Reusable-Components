@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OtherLinks Component renders correctly 1`] = `
+<ul
+  className="navbar-nav"
+>
+  <li
+    className="nav-item"
+  >
+    <a
+      className="nav-link header-name-text 7hub"
+      href=""
+    >
+       
+      <span
+        className="sr-only"
+      >
+        (current)
+      </span>
+    </a>
+  </li>
+</ul>
+`;

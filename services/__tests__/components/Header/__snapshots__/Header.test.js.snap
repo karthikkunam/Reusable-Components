@@ -1,0 +1,472 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component render component without ClockIn 1`] = `
+<Fragment>
+  <nav
+    className="navbar navbar-expand-md navbar-dark bg-dark fixed-top logged-in"
+  >
+    <div
+      className="container"
+    >
+      <Logo
+        logoClassName=""
+      />
+    </div>
+  </nav>
+  <div
+    className="sidenav left false"
+    id="navbarNavDropdown1"
+  >
+    <div
+      className="container level-0"
+    >
+      <HamBurgerMenu
+        defaultLeftNav={null}
+        handleLeftMenu={[Function]}
+        leftNavItems={
+          Array [
+            Object {
+              "iconClass": "icon-home",
+              "label": "home",
+              "url": "home",
+            },
+            Object {
+              "iconClass": "icon-promotions",
+              "label": "inventory management",
+              "url": "inventory-management",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="container level-1 false"
+    >
+      <HamBurgerSubMenu
+        defaultSubNav={null}
+        subMenuItems={Array []}
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Header Component render component without HamburgerMenu 1`] = `
+<Fragment>
+  <nav
+    className="navbar navbar-expand-md navbar-dark bg-dark fixed-top logged-in"
+  >
+    <div
+      className="container"
+    >
+      <Logo
+        logoClassName=""
+      />
+    </div>
+  </nav>
+  <div
+    className="sidenav left false"
+    id="navbarNavDropdown1"
+  >
+    <div
+      className="container level-0"
+    >
+      <HamBurgerMenu
+        defaultLeftNav={null}
+        handleLeftMenu={[Function]}
+        leftNavItems={
+          Array [
+            Object {
+              "iconClass": "icon-home",
+              "label": "home",
+              "url": "home",
+            },
+            Object {
+              "iconClass": "icon-promotions",
+              "label": "inventory management",
+              "url": "inventory-management",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="container level-1 false"
+    >
+      <HamBurgerSubMenu
+        defaultSubNav={null}
+        subMenuItems={Array []}
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Header Component render component without Notifications 1`] = `
+<Fragment>
+  <nav
+    className="navbar navbar-expand-md navbar-dark bg-dark fixed-top logged-in"
+  >
+    <div
+      className="container"
+    >
+      <Logo
+        logoClassName=""
+      />
+    </div>
+  </nav>
+  <div
+    className="sidenav left false"
+    id="navbarNavDropdown1"
+  >
+    <div
+      className="container level-0"
+    >
+      <HamBurgerMenu
+        defaultLeftNav={null}
+        handleLeftMenu={[Function]}
+        leftNavItems={
+          Array [
+            Object {
+              "iconClass": "icon-home",
+              "label": "home",
+              "url": "home",
+            },
+            Object {
+              "iconClass": "icon-promotions",
+              "label": "inventory management",
+              "url": "inventory-management",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="container level-1 false"
+    >
+      <HamBurgerSubMenu
+        defaultSubNav={null}
+        subMenuItems={Array []}
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Header Component render component without otherLinks 1`] = `
+<Fragment>
+  <nav
+    className="navbar navbar-expand-md navbar-dark bg-dark fixed-top logged-in"
+  >
+    <div
+      className="container"
+    >
+      <Logo
+        logoClassName=""
+      />
+    </div>
+  </nav>
+  <div
+    className="sidenav left false"
+    id="navbarNavDropdown1"
+  >
+    <div
+      className="container level-0"
+    >
+      <HamBurgerMenu
+        defaultLeftNav={null}
+        handleLeftMenu={[Function]}
+        leftNavItems={
+          Array [
+            Object {
+              "iconClass": "icon-home",
+              "label": "home",
+              "url": "home",
+            },
+            Object {
+              "iconClass": "icon-promotions",
+              "label": "inventory management",
+              "url": "inventory-management",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="container level-1 false"
+    >
+      <HamBurgerSubMenu
+        defaultSubNav={null}
+        subMenuItems={Array []}
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Header Component render component without printer 1`] = `
+<Fragment>
+  <nav
+    className="navbar navbar-expand-md navbar-dark bg-dark fixed-top logged-in"
+  >
+    <div
+      className="container"
+    >
+      <Logo
+        logoClassName=""
+      />
+    </div>
+  </nav>
+  <div
+    className="sidenav left false"
+    id="navbarNavDropdown1"
+  >
+    <div
+      className="container level-0"
+    >
+      <HamBurgerMenu
+        defaultLeftNav={null}
+        handleLeftMenu={[Function]}
+        leftNavItems={
+          Array [
+            Object {
+              "iconClass": "icon-home",
+              "label": "home",
+              "url": "home",
+            },
+            Object {
+              "iconClass": "icon-promotions",
+              "label": "inventory management",
+              "url": "inventory-management",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="container level-1 false"
+    >
+      <HamBurgerSubMenu
+        defaultSubNav={null}
+        subMenuItems={Array []}
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Header Component renders defaultProps correctly 1`] = `
+<Fragment>
+  <nav
+    className="navbar navbar-expand-md navbar-dark bg-dark fixed-top logged-in"
+  >
+    <div
+      className="container"
+    >
+      <Logo
+        logoClassName=""
+      />
+    </div>
+  </nav>
+  <div
+    className="sidenav left false"
+    id="navbarNavDropdown1"
+  >
+    <div
+      className="container level-0"
+    >
+      <HamBurgerMenu
+        defaultLeftNav={null}
+        handleLeftMenu={[Function]}
+        leftNavItems={
+          Array [
+            Object {
+              "iconClass": "icon-home",
+              "label": "home",
+              "url": "home",
+            },
+            Object {
+              "iconClass": "icon-promotions",
+              "label": "inventory management",
+              "url": "inventory-management",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="container level-1 false"
+    >
+      <HamBurgerSubMenu
+        defaultSubNav={null}
+        subMenuItems={Array []}
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Header Component should open leftNavToggle onClick 1`] = `
+<Fragment>
+  <nav
+    className="navbar navbar-expand-md navbar-dark bg-dark fixed-top logged-in"
+  >
+    <div
+      className="container"
+    >
+      <Logo
+        logoClassName=""
+      />
+      <button
+        className="btn btn-sm btn-outline-primary"
+        type="submit"
+      >
+        LOGIN
+      </button>
+    </div>
+  </nav>
+  <div
+    className="sidenav left false"
+    id="navbarNavDropdown1"
+  >
+    <div
+      className="container level-0"
+    >
+      <HamBurgerMenu
+        defaultLeftNav={null}
+        handleLeftMenu={[Function]}
+        leftNavItems={
+          Array [
+            Object {
+              "iconClass": "icon-home",
+              "label": "home",
+              "url": "home",
+            },
+            Object {
+              "iconClass": "icon-promotions",
+              "label": "inventory management",
+              "url": "inventory-management",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="container level-1 false"
+    >
+      <HamBurgerSubMenu
+        defaultSubNav={null}
+        subMenuItems={Array []}
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Header Component should render loggedOut header 1`] = `
+<Fragment>
+  <nav
+    className="navbar navbar-expand-md navbar-dark bg-dark fixed-top logged-in"
+  >
+    <div
+      className="container"
+    >
+      <Logo
+        logoClassName=""
+      />
+      <button
+        className="btn btn-sm btn-outline-primary"
+        type="submit"
+      >
+        LOGIN
+      </button>
+    </div>
+  </nav>
+  <div
+    className="sidenav left false"
+    id="navbarNavDropdown1"
+  >
+    <div
+      className="container level-0"
+    >
+      <HamBurgerMenu
+        defaultLeftNav={null}
+        handleLeftMenu={[Function]}
+        leftNavItems={
+          Array [
+            Object {
+              "iconClass": "icon-home",
+              "label": "home",
+              "url": "home",
+            },
+            Object {
+              "iconClass": "icon-promotions",
+              "label": "inventory management",
+              "url": "inventory-management",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="container level-1 false"
+    >
+      <HamBurgerSubMenu
+        defaultSubNav={null}
+        subMenuItems={Array []}
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Header Component should render storeDetails from props 1`] = `
+<Fragment>
+  <nav
+    className="navbar navbar-expand-md navbar-dark bg-dark fixed-top logged-in"
+  >
+    <div
+      className="container"
+    >
+      <Logo
+        logoClassName=""
+      />
+    </div>
+  </nav>
+  <div
+    className="sidenav left false"
+    id="navbarNavDropdown1"
+  >
+    <div
+      className="container level-0"
+    >
+      <HamBurgerMenu
+        defaultLeftNav={null}
+        handleLeftMenu={[Function]}
+        leftNavItems={
+          Array [
+            Object {
+              "iconClass": "icon-home",
+              "label": "home",
+              "url": "home",
+            },
+            Object {
+              "iconClass": "icon-promotions",
+              "label": "inventory management",
+              "url": "inventory-management",
+            },
+          ]
+        }
+      />
+    </div>
+    <div
+      className="container level-1 false"
+    >
+      <HamBurgerSubMenu
+        defaultSubNav={null}
+        subMenuItems={Array []}
+      />
+    </div>
+  </div>
+</Fragment>
+`;

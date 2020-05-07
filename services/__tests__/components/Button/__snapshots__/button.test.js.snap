@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component renders correctly 1`] = `
+<button
+  className="btn btn-primary"
+  onClick={[MockFunction]}
+/>
+`;
+
+exports[`Button Component renders correctly outline as true 1`] = `
+<button
+  className="btn btn-outline-secondary"
+  onClick={[MockFunction]}
+/>
+`;

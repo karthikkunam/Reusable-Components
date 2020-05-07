@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToastContainer Component mock setTimeout test 1`] = `
+<div
+  aria-atomic="true"
+  aria-live="assertive"
+  className="toast undefined show"
+  data-autohide="true"
+  data-delay="3000"
+  role="alert"
+>
+  <div
+    className="toast-header"
+  >
+    <strong
+      className="mr-auto"
+    />
+    <button
+      className="close"
+      data-dismiss="toast"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="icon icon-close"
+      />
+    </button>
+  </div>
+  <div
+    className="toast-body"
+  />
+</div>
+`;
+
+exports[`ToastContainer Component renders correctly 1`] = `
+<div
+  aria-atomic="true"
+  aria-live="assertive"
+  className="toast undefined show"
+  data-autohide="true"
+  data-delay="3000"
+  role="alert"
+>
+  <div
+    className="toast-header"
+  >
+    <strong
+      className="mr-auto"
+    />
+    <button
+      className="close"
+      data-dismiss="toast"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="icon icon-close"
+      />
+    </button>
+  </div>
+  <div
+    className="toast-body"
+  />
+</div>
+`;
+
+exports[`ToastContainer Component renders onClose properly 1`] = `
+<div
+  aria-atomic="true"
+  aria-live="assertive"
+  className="toast undefined hide"
+  data-autohide="true"
+  data-delay="3000"
+  role="alert"
+>
+  <div
+    className="toast-header"
+  >
+    <strong
+      className="mr-auto"
+    />
+    <button
+      className="close"
+      data-dismiss="toast"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="icon icon-close"
+      />
+    </button>
+  </div>
+  <div
+    className="toast-body"
+  />
+</div>
+`;
